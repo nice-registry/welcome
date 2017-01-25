@@ -9,6 +9,14 @@ These modules mostly exist because npm, Inc. does not provide a public API
 for collecting registry metadata. Streaming content from the public CouchDB
 replication endpoint is about all we (the public) can do for now.
 
+There is a ton of useful package metadata in the npm registry, but if
+you're not an expert with CouchDB it can be pretty difficult to access. Back in
+early 2015, npm Inc created a
+[private internal registry API](https://github.com/npm/public-api) that is
+accessible exclusively to the npm website and npm CLI, and there are
+[no signs](https://github.com/npm/public-api/issues) of that API becoming
+publicly available any time soon.
+
 ## Open Open Source
 
 This org adheres to the [open open source](http://openopensource.org/)
