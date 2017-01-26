@@ -32,6 +32,13 @@ contribution model:
 
 > Individuals making significant and valuable contributions are given commit-access to the project to contribute as they see fit. This project is more like an open wiki than a standard guarded open source project.
 
+Many of these repos also adhere to the [Scripts To Rule Them All](https://github.com/github/scripts-to-rule-them-all) pattern popularized by
+GitHub:
+
+> If your scripts are normalized by name across all of your projects, your contributors only need to know the pattern, not a deep knowledge of the application. This means they can jump into a project and make contributions without first learning how to bootstrap the project or how to get its tests to run.
+
+> The intricacies of things like test commands and bootstrapping can be managed by maintainers, who have a rich understanding of the project's domain. Individual contributors need only to know the patterns and can simply run the commands and get what they expect.
+
 ## Automation
 
 Many of the modules in this org are self-updating. They have [release scripts](https://github.com/nice-registry/owners/blob/8a7002c4cf85b2834266cbcdd816523e02e5ffbe/script/release.sh)
