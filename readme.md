@@ -1,21 +1,32 @@
 # Nice Registry
 
-This is an open-source GitHub organization consisting of packages for consuming
-npm registry metadata.
+The nice registry is a collection of tools that make it easier to work with the npm package registry and learn things from it. 
+
+These projects seek to answer questions like:
+
+- [Who are the most prolific package authors?](https://github.com/nice-registry/owners)
+- [What English words are not already taken as package names?](https://github.com/nice-registry/english-words-that-are-not-yet-npm-packages)
+- [What are the most popular GitHub API clients?](https://github.com/nice-registry/github-api-modules)
+- [How many packages exist?](https://github.com/nice-registry/all-the-package-names/commits/master)
+- [How many scoped packages exist?](https://github.com/nice-registry/all-the-package-names/commits/master)
+- [What are some popular tools for managing pull requests?](https://github.com/nice-registry/pull-request-modules)
+- [Which packages are downloaded the most?](https://github.com/nice-registry/download-counts)
+- [What are the GitHub and Twitter handles of a given author?](https://github.com/nice-registry/owner-profiles)
+- [What are the most popular CLI tools?](https://github.com/nice-registry/cli-packages)
+- [How many packages have a GitHub repo?](https://github.com/nice-registry/all-the-package-repos)
+- [How many packages have a GitLab repo?](https://github.com/nice-registry/all-the-package-repos)
+- [What packages are depended on most?](https://github.com/nice-registry/dependent-counts)
 
 ## Why?
 
-These modules mostly exist because npm, Inc. does not provide a public API
-for collecting registry metadata. Streaming content from the public CouchDB
-replication endpoint is about all we (the public) can do for now.
+There is a wealth of useful information in the npm registry, but it's difficult to access.
 
-There is a ton of useful package metadata in the npm registry, but if
-you're not an expert with CouchDB it can be pretty difficult to access. Back in
-early 2015, npm Inc created a
+npm Incorporated **does not have a public API** for collecting or querying registry metadata. 
+Back in early 2015, they created a
 [private internal registry API](https://github.com/npm/public-api) that is
-accessible exclusively to the npm website and npm CLI, and there are
-[no signs](https://github.com/npm/public-api/issues) of that API becoming
-publicly available any time soon.
+accessible exclusively to the npm website and npm CLI, and after more than two years there are
+[still no signs](https://github.com/npm/public-api/issues) of that API becoming
+publicly available.
 
 ## Code of Conduct
 
@@ -49,3 +60,8 @@ that have npm and GitHub authentication credentials baked in.
 For more details on this automation technique, see the
 [Sweet Sensation of Automation](http://zeke.sikelianos.com/npm-and-github-automation-with-heroku/)
 blog post.
+
+
+## Related Projects
+-
+https://github.com/johnymontana/npm-graph
