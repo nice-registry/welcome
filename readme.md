@@ -63,5 +63,5 @@ blog post.
 
 
 ## Related Projects
--
-https://github.com/johnymontana/npm-graph
+
+ - https://github.com/johnymontana/npm-graph
