@@ -14,7 +14,6 @@ These projects seek to answer questions like:
 - [What are the GitHub and Twitter handles of a given author?](https://github.com/nice-registry/owner-profiles)
 - [What are the most popular CLI tools?](https://github.com/nice-registry/cli-packages)
 - [How many packages have a GitHub repo?](https://github.com/nice-registry/all-the-package-repos)
-- [How many packages have a GitLab repo?](https://github.com/nice-registry/all-the-package-repos)
 - [What packages are depended on most?](https://github.com/nice-registry/dependent-counts)
 
 ## Why?
