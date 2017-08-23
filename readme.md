@@ -28,6 +28,17 @@ accessible exclusively to the npm website and npm CLI, and after more than two y
 [still no signs](https://github.com/npm/public-api/issues) of that API becoming
 publicly available.
 
+## Datasets
+
+Some of the projects in this org are not really tools, but datasets collected
+by conusming the entire registry and filtering for various criteria.
+
+- [github-api-modules](https://github.com/nice-registry/github-api-modules)
+- [http-modules](https://github.com/nice-registry/http-modules)
+- [native-modules](https://github.com/nice-registry/native-modules)
+- [nock-modules](https://github.com/nice-registry/nock-modules)
+- [pull-request-modules](https://github.com/nice-registry/pull-request-modules)
+
 ## Code of Conduct
 
 This project adheres to the
